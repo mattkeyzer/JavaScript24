@@ -1,0 +1,41 @@
+{
+	"enableStatusBarItem": true,
+	"enableQuickPick": true,
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"My FTP"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"include": [],
+	"targets": [
+		{
+			"name": "My FTP",
+			"type": "ftp",
+			"host": "mkeyzer282.mccweb.net",
+			"port": 21,
+			"user": "mkeyzer282",
+			"password": "MCCBowser715?!",
+			"dir": "/public_html",
+			"baseDir": "/",
+			"transferDataType": "binary"
+		},
+		{
+			"name": "My SFTP",
+			"type": "sftp",
+			"host": "mkeyzer282.mccweb.net",
+			"port": 22,
+			"user": "mkeyzer282",
+			"password": "MCCBowser715?!",
+			"dir": "/public_html",
+			"baseDir": "/",
+			"privateKey": null,
+			"passphrase": null
+		}
+	]
+}
