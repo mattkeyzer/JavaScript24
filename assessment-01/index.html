@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assessment-01</title>
+    <script src="scripts/script.js"></script>
+    
+
+</head>
+<body>
+    <h1>Assessment-01</h1>
+    
+    <button onclick="document.getElementById('images').src='images/lizard1.jpeg'">Change to lizard 1</button>
+
+    <button onclick="document.getElementById('images').src='images/lizard2.jpeg'">Change to lizard 2</button>
+    <button onclick="document.getElementById('images').src='images/lizard3.jpeg'">Change to lizard 3</button>
+
+    <img id="images" src="images/lizard1.jpeg" alt="">
+
+    
+
+    <p id="changingText">text to be overritten</p>
+    <button onclick="myFunction1()">Override text!</button>
+
+    <button onclick="myFunction2()">Change Width</button>
+
+    <button onclick="myFunction3()">Change Text Color</button>
+
+    <button onclick="myFunction4()">Show Image</button>
+
+    <button onclick="myFunction5()">Hide Image</button>
+
+    <script>
+        document.getElementById("changingText").innerHTML = "Javascript inside the script tag."
+
+    </script>
+</body>
+</html>
