@@ -1,3 +1,5 @@
+//removed username and password from this file
+
 {
 	"enableStatusBarItem": true,
 	"enableQuickPick": true,
@@ -19,7 +21,7 @@
 			"type": "ftp",
 			"host": "",
 			"port": 21,
-			"user": "mkeyzer282",
+			"user": "",
 			"password": "",
 			"dir": "/public_html",
 			"baseDir": "/",
@@ -30,7 +32,7 @@
 			"type": "sftp",
 			"host": "",
 			"port": 22,
-			"user": "mkeyzer282",
+			"user": "",
 			"password": "",
 			"dir": "/public_html",
 			"baseDir": "/",
