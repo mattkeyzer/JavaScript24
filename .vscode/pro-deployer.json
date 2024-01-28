@@ -17,10 +17,10 @@
 		{
 			"name": "My FTP",
 			"type": "ftp",
-			"host": "mkeyzer282.mccweb.net",
+			"host": "",
 			"port": 21,
 			"user": "mkeyzer282",
-			"password": "MCCBowser715?!",
+			"password": "",
 			"dir": "/public_html",
 			"baseDir": "/",
 			"transferDataType": "binary"
@@ -28,10 +28,10 @@
 		{
 			"name": "My SFTP",
 			"type": "sftp",
-			"host": "mkeyzer282.mccweb.net",
+			"host": "",
 			"port": 22,
 			"user": "mkeyzer282",
-			"password": "MCCBowser715?!",
+			"password": "",
 			"dir": "/public_html",
 			"baseDir": "/",
 			"privateKey": null,
