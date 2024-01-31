@@ -1,4 +1,4 @@
-//removed username and password from this file
+
 
 {
 	"enableStatusBarItem": true,
@@ -19,10 +19,10 @@
 		{
 			"name": "My FTP",
 			"type": "ftp",
-			"host": "",
+			"host": "mkeyzer282.mccweb.net",
 			"port": 21,
-			"user": "",
-			"password": "",
+			"user": "mkeyzer282",
+			"password": "MCCBowser715?!",
 			"dir": "/public_html",
 			"baseDir": "/",
 			"transferDataType": "binary"
@@ -30,10 +30,10 @@
 		{
 			"name": "My SFTP",
 			"type": "sftp",
-			"host": "",
+			"host": "mkeyzer282.mccweb.net",
 			"port": 22,
-			"user": "",
-			"password": "",
+			"user": "mkeyzer282",
+			"password": "MCCBowser715?!",
 			"dir": "/public_html",
 			"baseDir": "/",
 			"privateKey": null,
