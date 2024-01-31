@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 2 Assessment 01</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/calculate.js"></script>
+</head>
+
+<body onload="addDate()">
+
+    <header>
+        <h1>Module 2 Assessment 01</h1>
+    </header>
+    <main class="container">
+        <form>
+            <div class="top">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="fname"><br>
+                <p id="today"></p>
+                <p>&nbsp;</p>
+                <p id="myDate"></p>
+                <h3>Sandwiches!</h3>
+                <ul>
+                    <li>
+                        <label for="sandwich1">How Many Monte Carlo:</label>
+                        <select id="sandwich1" name="sandwich1">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="sandwich1Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="sandwich2">How Many BLT:</label>
+                        <select id="sandwich2" name="sandwich2">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="sandwich2Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="sandwich3">How Many BLT:</label>
+                        <select id="sandwich3" name="sandwich3">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="sandwich3Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+                    
+                    <li>
+                        <label for="sandwich4">How Many BLT:</label>
+                        <select id="sandwich4" name="sandwich4">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="sandwich4Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="sandwich5">How Many BLT:</label>
+                        <select id="sandwich5" name="sandwich5">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="sandwich5Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+                    
+                    
+                </ul>
+                <h3>Drinks!</h3>
+                <ul>
+                    <li>
+                        <label for="drink1">How Many Water:</label>
+                        <select id="drink1" name="drink1">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="drink1Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="drink2">How Many Soda:</label>
+                        <select id="drink2" name="drink2">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="drink2Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="drink3">How Many Tea:</label>
+                        <select id="drink3" name="drink3">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="drink3Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+                    
+                    <li>
+                        <label for="drink4">How Many Coffee:</label>
+                        <select id="drink4" name="drink4">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="drink4Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="drink5">How Many Milk:</label>
+                        <select id="drink5" name="drink5">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="drink5Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+                    
+                    
+                </ul>
+                
+                <h3>Dessert!</h3>
+                <ul>
+                    <li>
+                        <label for="dessert1">How Many Water:</label>
+                        <select id="dessert1" name="dessert1">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="dessert1Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="dessert2">How Many Soda:</label>
+                        <select id="dessert2" name="dessert2">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="dessert2Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="dessert3">How Many Tea:</label>
+                        <select id="dessert3" name="dessert3">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="dessert3Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+                    
+                    <li>
+                        <label for="dessert4">How Many Coffee:</label>
+                        <select id="dessert4" name="dessert4">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="dessert4Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+
+                    <li>
+                        <label for="dessert5">How Many Milk:</label>
+                        <select id="dessert5" name="dessert5">
+                            <option value="0">zero</option>
+                            <option value="1">one</option>
+                            <option value="2">two</option>
+                            <option value="3">three</option>                        
+                        </select>
+                        <label id="dessert5Price" price="4.99">Price: $4.99 each</label>
+                    </li>
+                    
+                    
+                </ul>
+                
+                
+                
+
+            <div class="bottom">
+                <button id="recipt" type="button" onclick="estimate()">Get Recipt!</button>
+                <h3>Cost:</h3>
+                <p id="estimate"></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h3>Matt Keyzer</h3>
+    </footer>
+</body>
+
+</html>
