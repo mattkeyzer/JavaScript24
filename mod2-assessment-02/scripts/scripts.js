@@ -27,12 +27,20 @@ const car4 = {
     altTag: "ford-gt"
 };
 
+const car5 = {
+    heading: "Ford Mustang!",
+    image: "images/mustang.jpeg",
+    caption: "If I had to pick a muscle car...",
+    altTag: "ford-mustang"
+};
+
 
 function loadPage(){
     loadCar1(car1, 1);
     loadCar2(car2, 2);
     loadCar3(car3, 3);
     loadCar4(car4, 4);
+    loadCar5(car5, 5);
 }
 
 
@@ -64,6 +72,15 @@ function loadCar3(car, carNum){
 }
 
 function loadCar4(car, carNum){
+    document.getElementById("heading" + carNum).innerHTML = car.heading;
+    document.getElementById("img" + carNum).src = car.image;
+    document.getElementById("img" + carNum).style.display = "block";
+    document.getElementById("p" + carNum).innerHTML = car.caption;
+    document.getElementById("img" + carNum).setAttribute('alt', car.altTag);
+
+}
+
+function loadCar5(car, carNum){
     document.getElementById("heading" + carNum).innerHTML = car.heading;
     document.getElementById("img" + carNum).src = car.image;
     document.getElementById("img" + carNum).style.display = "block";
