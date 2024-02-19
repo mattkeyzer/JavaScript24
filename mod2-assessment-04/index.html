@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hot/Cold Game</title>
+</head>
+
+<body onload="start()">
+    <div class="container">
+        <header>
+            <h1>Hot / Cold Guessing Game!!!</h1>
+        </header>
+        <main>
+            <body>
+                
+                <p id="target"></p>
+                <p>Guess a number between 1 and 1000:</p>
+                <input type="text" id="guessInput">
+                <button onclick="checkGuess()">Submit Guess</button>
+                <p id="feedback"></p>
+            </body>
+
+
+
+        </main>
+        <footer>&copy; Matt Keyzer </footer>
+    </div>
+    <script src="scripts/hotcold.js"></script>
+</body>
+
+</html>
