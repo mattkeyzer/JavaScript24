@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F3F3; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2E8B57; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #2E8B57; 
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #2E8B57; 
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2E8B57; 
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #228B22;
+}
+
+#totalMileage {
+    font-weight: bold;
+    color: #2E8B57; 
+}
